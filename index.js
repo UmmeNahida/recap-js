@@ -1,23 +1,21 @@
 
+console.log("This is a", a)
+var a = "ABCD"; // re declare, re assign
+let c = "ABCD";  // re declare X, re assign
+const b = "ABCD" // re decalre X, re assign X
+var myGblobal = ""
 
+(function Nahida() {
+  // Scope A
+  var a = "Nahida";
+  console.log(a);
+})();
 
-
-// var a = "ABCD"; // re declare, re assign
-// let c = "ABCD";  // re declare X, re assign
-// const b = "ABCD" // re decalre X, re assign X
-// var myGblobal = ""
-
-// (function Nahida() {
-//   // Scope A
-//   var a = "Nahida";
-//   console.log(a);
-// })();
-
-// (function Abail() {
-//   // Scope B
-//   var a = "Ababil";
-//   console.log(a);
-// })();
+(function Abail() {
+  // Scope B
+  var a = "Ababil";
+  console.log(a);
+})();
 
 // function x() {}
 // const x = () => {};
@@ -27,17 +25,17 @@
 
 // (() => {}) -> (() =>{ hof }) -> (() => {})
 
-// const x = (param) => {
-//   console.log(param);
-//   return (num)=>{
-//     return `"something" ${num}`
-//   }
-// };
+const x = (param) => {
+  console.log(param);
+  return (num)=>{
+    return `"something" ${num}`
+  }
+};
 
-// const y = x; //reference consume of X fun
+const y = x; //reference consume of X fun
 
-// const extendY = y("nahida")
-// console.log(extendY(30))
+const extendY = y("nahida")
+console.log(extendY(30))
 
 
 // return (param) => func(param);
@@ -97,8 +95,10 @@
 // }
 
 
+var name = "ababil pakhi"
 
-for (let i = 0; i <= 100000; i++) {
+
+for (let i = 0; i <= 3; i++) {
   console.log("I love to create bugs")
 }
 
