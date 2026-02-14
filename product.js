@@ -9,13 +9,13 @@ const cart = [
 
 
 function getTotalProduct(){
-  let sum = 0;
-  console.log("helo")
-  for(let i=0; i <= cart.length; i++){
-       console.log("hello ami sunte pacci tmk")
-  }
+  
+  const result = cart.map((product)=> product.price)
+  return result
 }
 
 
 const result = getTotalProduct()
+console.log(result)
 console.log(cart.length)
+
