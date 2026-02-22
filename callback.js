@@ -30,7 +30,7 @@ handleFetch((data) =>{
 })
 
 
-fs.readFile("pakhi.txt", (err, data)=>{
+fs.readFile("pakhi.txt", "utf8",(err, data)=>{
    if(err){
     console.log(err)
    }else{
