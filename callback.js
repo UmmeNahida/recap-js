@@ -30,13 +30,10 @@ handleFetch((data) =>{
 })
 
 
-const x = ()=>{
-   console.log("hey ami x funtions")
-}
-
-
-console.log(fs)
-
-const y = ()=>{
-  console.log("hay ami y function ")
-}
+fs.readFile("pakhi.txt", (err, data)=>{
+   if(err){
+    console.log(err)
+   }else{
+    console.log(data)
+   }
+})
