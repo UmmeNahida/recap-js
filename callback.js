@@ -2,6 +2,16 @@ const API = "https://api.codeababil.com/secret-key";
 const fs = require("fs");
 const { nextTick } = require("process");
 
+
+fs.readFile("pakhi.txt", "utf8",(err, data)=>{
+   if(err){
+    console.log(err)
+   }else{
+    console.log(data)
+   }
+})
+
+
 const handleFetch = async (callback) => {
   try {
     const response = await fetch(API, {
@@ -29,16 +39,6 @@ handleFetch((data) =>{
 
   return {...data, message: "I love programming!"};
 })
-
-
-fs.readFile("pakhi.txt", "utf8",(err, data)=>{
-   if(err){
-    console.log(err)
-   }else{
-    console.log(data)
-   }
-})
-
 
 
 // why am I use callback in next
