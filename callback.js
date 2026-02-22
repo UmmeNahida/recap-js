@@ -1,5 +1,5 @@
 const API = "https://api.codeababil.com/secret-key";
- 
+const fs = require("fs");
 
 const handleFetch = async (callback) => {
   try {
@@ -34,6 +34,8 @@ const x = ()=>{
    console.log("hey ami x funtions")
 }
 
+
+console.log(fs)
 
 const y = ()=>{
   console.log("hay ami y function ")
