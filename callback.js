@@ -1,5 +1,6 @@
 const API = "https://api.codeababil.com/secret-key";
 const fs = require("fs");
+const { nextTick } = require("process");
 
 const handleFetch = async (callback) => {
   try {
@@ -37,3 +38,11 @@ fs.readFile("pakhi.txt", "utf8",(err, data)=>{
     console.log(data)
    }
 })
+
+
+
+// why am I use callback in next
+
+// * to handle async Operation efficiantly
+// * remove non blocking behavior from Node.js 
+// * improve performance
