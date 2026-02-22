@@ -28,3 +28,13 @@ handleFetch((data) =>{
 
   return {...data, message: "I love programming!"};
 })
+
+
+const x = ()=>{
+   console.log("hey ami x funtions")
+}
+
+
+const y = ()=>{
+  console.log("hay ami y function ")
+}
