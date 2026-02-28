@@ -62,3 +62,41 @@
         //     </table>
         //   </div>
         // </div>
+
+if("false"){
+  console.log("yes")
+}else{
+  console.log("no")
+}
+
+console.log(typeof NaN)
+
+const cart = [
+  { id: 1, name: "Laptop", price: 50000, quantity: 1 },
+  { id: 2, name: "Mouse", price: 500, quantity: 2 },
+  { id: 3, name: "Keyboard", price: 1500, quantity: 1 },
+  { id: 2, name: "Mouse", price: 500, quantity: 1 }
+];
+
+function getTotalProduct(cart) {
+  const result = {};
+
+  // for (let product of cart) {
+  //     console.log(product[1])
+  // }
+}
+
+const output = getTotalProduct(cart)
+// console.log(output)
+
+const product = {
+  name: "mobile",
+  price: 5000
+}
+
+console.log(product["name"])  // object[keyProperty]
+
+
+
+
+
