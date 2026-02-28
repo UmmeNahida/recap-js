@@ -81,20 +81,21 @@ const cart = [
 function getTotalProduct(cart) {
   const result = {};
 
-  // for (let product of cart) {
-  //     console.log(product[1])
-  // }
+  for (let product of cart) {
+      result[product.id]
+  }
 }
 
 const output = getTotalProduct(cart)
 // console.log(output)
 
 const product = {
+  id:1,
   name: "mobile",
   price: 5000
 }
 
-console.log(product["name"])  // object[keyProperty]
+console.log(product[1])  // object[keyProperty]
 
 
 
