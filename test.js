@@ -1,3 +1,4 @@
+console.log("message", message)
 
 if("false"){
   console.log("yes")
@@ -30,7 +31,7 @@ productList[1] = product
 
 console.log(productList)
 
-let arr = [];
+let arr = ["c"];
 arr[1] = "a";
 console.log(arr) // aikane index number 1, aita value "a" assign hoy nai kno, <1 empty item> aita kno
 
@@ -43,11 +44,19 @@ obj[2] = "mouse";
 
 console.log(Object.keys(obj)); // ["2"]
 console.log(obj[2]);           // mouse
+simple()
+var message = "I am burn out to following you"
 
 
+sayHi(); // TypeError: sayHi is not a function
+let sayHi = function() {
+  console.log("Hi!");
+};
 
 
-
+function simple(){
+  console.log("say Hi")
+}
 
 
 
