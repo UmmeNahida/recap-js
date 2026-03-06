@@ -16,6 +16,19 @@ const cart = [
 ];
 
 
+const result = {};
+
+for (let product of cart) {
+  if (result[product.id]) {
+    result[product.id].quantity += product.quantity;
+  } else {
+    result[product.id] = { ...product };
+  }
+}
+
+console.log("card result: ", result)
+
+
 // ----------------------------------------------object/array/key coercion-------------------------//
 let product = {
   id:1,
@@ -57,6 +70,9 @@ let sayHi = function() {
 function simple(){
   console.log("say Hi")
 }
+
+
+
 
 
 
