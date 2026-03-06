@@ -10,7 +10,7 @@ console.log(typeof NaN)
 
 const cart = [
   { id: 1, name: "Laptop", price: 50000, quantity: 1 },
-  { id: 2, name: "Mouse", price: 500, quantity: 2 },
+  { id: 2, name: "Mouse", price: 500, quantity: 5 },
   { id: 3, name: "Keyboard", price: 1500, quantity: 1 },
   { id: 2, name: "Mouse", price: 500, quantity: 1 }
 ];
