@@ -22,6 +22,7 @@ for (let product of cart) {
   if (result[product.id]) {
     result[product.id].quantity += product.quantity;
   } else {
+    console.log({...product})
     result[product.id] = { ...product };
   }
 }
