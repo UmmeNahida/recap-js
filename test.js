@@ -62,17 +62,30 @@ simple()
 var message = "I am burn out to following you butt cu"
 
 
-sayHi(); // TypeError: sayHi is not a function
-let sayHi = function() {
-  console.log("Hi!");
-};
+// sayHi(); // TypeError: sayHi is not a function
+// let sayHi = function() {
+//   console.log("Hi!");
+// };
 
 
 function simple(){
   console.log("say Hi")
 }
 
+const arrayNum = [1,5,2,4,12,6]
 
+function findOddNum(){
+  for(num of arrayNum){
+       if(num % 2 === 0){
+           console.log(`this is even num ${num}`)
+       }else{
+           console.log(`this is odd ${num}`)
+       }
+  }
+}
+
+
+findOddNum()
 
 
 
