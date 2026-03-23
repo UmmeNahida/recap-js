@@ -8,5 +8,5 @@ const totalPrice =()=>{
 
 }
 
-
+// problem 2
 const nums = [1,2,3,2,4,5,1,6];
