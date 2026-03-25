@@ -11,8 +11,8 @@ const cart = [
 //   const result = cart.
 // }
 
-// // problem 2
-// const nums = [1,2,3,2,4,5,1,6];
+// problem 2
+const nums = [1,2,3,2,4,5,1,6];
 
 // // ✅ Task 3: Capitalize first letter
 // const str = "hello world";
