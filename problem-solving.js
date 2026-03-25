@@ -11,7 +11,7 @@ const cart = [
 //   const result = cart.
 // }
 
-// problem 2
+// ✅ Task 2: Find duplicate numbers
 const nums = [1,2,3,2,4,5,1,6];
 
 // ✅ Task 3: Capitalize first letter
