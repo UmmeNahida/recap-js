@@ -7,9 +7,13 @@ const cart = [
 ];
 
 
-// const getTotalPrice = ()=>{
-//   const result = cart.
-// }
+const getTotalPrice = ()=>{
+  const result = cart.reduce((acc,currentItem)=> currentItem.price * currentItem.quantity + acc,0)
+  console.log("result:",result)
+  return result
+}
+
+getTotalPrice()
 
 // ✅ Task 2: Find duplicate numbers
 const nums = [1,2,3,2,4,5,1,6];
