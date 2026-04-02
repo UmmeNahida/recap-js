@@ -16,5 +16,16 @@ console.log(TotalPrice())
 // ✅ Task 2: Find duplicate numbers
 const nums = [1,2,3,2,4,5,1,6];
 
+const box = [];
+nums.forEach(element => {
+  const box = []
+  if(!box.includes(element)){
+     box.push(element)
+     console.log("new Number",element)
+  }else{
+    console.log("Dub", element)
+  }
+});
+
 // ✅ Task 3: Capitalize first letter
 const str = "hello world";
