@@ -38,8 +38,7 @@ let product = {
   price: 5000
 }
 
-console.log(product["name"])  // object[keyProperty]
-
+console.log(product["name"])  // { '1': { id: 1, name: 'mobile', price: 5000 }}
 // name unknown (object coersion)
 let productList = {}
 productList[1] = product
