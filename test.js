@@ -37,17 +37,16 @@ let product = {
   name: "mobile",
   price: 5000
 }
+// console.log("PP",product["name"]) 
 
-console.log(product["name"])  // { '1': { id: 1, name: 'mobile', price: 5000 }}
 // name unknown (object coersion)
 let productList = {}
-productList[1] = product
-
-console.log(productList)
+productList[1] = product  // aita index akare na bose key hisabe use hobe
+console.log(productList) //output: { '1': { id: 1, name: 'mobile', price: 5000 }}
 
 let arr = ["c"];
-arr[1] = "a";
-console.log(arr) // aikane index number 1, aita value "a" assign hoy nai kno, <1 empty item> aita kno
+arr[1] = product;  // aita index akare aikane bosbe 
+console.log(arr) // ["c","a"]
 
 // let obj = {};
 // obj[1] = "a";
