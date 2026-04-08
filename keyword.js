@@ -17,11 +17,13 @@ const user ={
 
 
 // -------------------------------------------------3.Regular function e this----------------//
-"use strict";
+// [Note: Regular function => window / undefined]
+
+// "use strict";
 function test() {
-  console.log(this);
+  console.log(this); //this = undefined
 }
-// test();
+// test(); 
 
 //-------------------------------------------------4. Arrow function e this--------------------//
 // Note:  👉 Output: undefined
@@ -64,5 +66,24 @@ function great(){
 const winner ={name:"Nahida", position:"Software Engineer", location:"sylhet"}
 great.call(winner)
 
+const person = {
+  name: "Umme Nahida"
+};
 
+function greet() {
+  console.log(this.name);
+}
+
+greet.apply(person);
+
+const obj = {
+  name: "Jaan pakhi",
+  greet: function () {
+    return function () {
+      console.log("my name: ",this.name);
+    };
+  }
+};
+
+obj.greet();
 // Play with Array String .. different type of sorting, filtering 
