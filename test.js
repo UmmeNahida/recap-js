@@ -58,7 +58,7 @@ obj[2] = "mouse";
 console.log(Object.keys(obj)); // ["2"]
 console.log(obj[2]);           // mouse
 simple()
-var message = "I am burn out to following you butt cu"
+var message = "hello"
 
 
 // sayHi(); // TypeError: sayHi is not a function

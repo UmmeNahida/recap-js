@@ -1,4 +1,5 @@
-
+What is This keyword in JS?
+this keyword is a special reference variable. 
  
 What is meant by “Callback” in Node.js?
 Ans: In Node.js, a callback is a function passed as an argument to another function, which is executed after an asynchronous operation completes. Since Node.js follows a non-blocking, event-driven architecture, callbacks help handle tasks like file reading, database queries, or API calls without stopping the execution of other code.
