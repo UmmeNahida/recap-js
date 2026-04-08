@@ -61,7 +61,6 @@ function great(){
   console.log(this.position) // output: Software Engineer
   console.log(this.level = "Senior") // Senior
 }
-
 const winner ={name:"Nahida", position:"Software Engineer", location:"sylhet"}
 great.call(winner)
 
